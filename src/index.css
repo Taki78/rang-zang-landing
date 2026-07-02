@@ -264,15 +264,13 @@ div[id^='contact'] {
 /* ===================== HERO ===================== */
 .hero {
   position: relative;
-  /* پس‌زمینهٔ صنعتی self-hosted (SVG داخل public) تا همیشه — از جمله از ایران — لود شود.
-     برای جایگزینی با عکس واقعی کارخانه: فایل را در public/ بگذارید و url زیر را عوض کنید. */
   background: linear-gradient(
       180deg,
-      oklch(15% 0.015 240 / 0.55),
-      oklch(18% 0.015 240 / 0.82)
+      oklch(15% 0.015 240 / 0.82),
+      oklch(18% 0.015 240 / 0.94)
     ),
-    url('/hero-factory.svg') center bottom / cover no-repeat,
-    var(--navy);
+    url('https://images.unsplash.com/photo-1578776349090-de61da00ff1a?w=1920&q=75&auto=format&fit=crop')
+      center / cover no-repeat;
   padding: 150px 40px 0;
   text-align: center;
   overflow: hidden;
