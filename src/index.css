@@ -269,7 +269,7 @@ div[id^='contact'] {
       oklch(15% 0.015 240 / 0.82),
       oklch(18% 0.015 240 / 0.94)
     ),
-    url('https://images.unsplash.com/photo-1578776349090-de61da00ff1a?w=1920&q=75&auto=format&fit=crop')
+    url('/hero-bg.jpg')
       center / cover no-repeat;
   padding: 150px 40px 0;
   text-align: center;
